@@ -1,2 +1,7 @@
-package Interfaces;public interface VideoMediaPlayer {
+package Media;
+
+public interface VideoMediaPlayer extends MediaPlayer {
+    boolean chatsAllowed();
+
+
 }

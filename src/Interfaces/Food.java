@@ -1,2 +1,5 @@
-package Interfaces;public interface Food {
+package Interfaces;
+
+public interface Food {
+    void eat();
 }

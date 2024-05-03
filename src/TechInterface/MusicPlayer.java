@@ -1,2 +1,8 @@
-package TechInterface;public interface MusicPlayer {
+package TechInterface;
+
+public interface MusicPlayer {
+    void play();
+    void pause();
+    void resume();
+    void stop();
 }

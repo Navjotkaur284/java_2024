@@ -1,2 +1,11 @@
-package Inheritance;public class AdvC {
+package Inheritance;
+
+public class AdvC extends Calc{
+
+   public int multi(int num1,int num2) {
+       return num1 * num2;
+   }
+    public int div(int num1,int num2) {
+        return num1/num2;
+    }
 }

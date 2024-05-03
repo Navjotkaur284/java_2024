@@ -1,2 +1,4 @@
-package TechInterface;public class Main {
+package TechInterface;
+
+public class Main {
 }

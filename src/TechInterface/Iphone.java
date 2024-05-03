@@ -1,2 +1,5 @@
-package TechInterface;public class Iphone {
+package TechInterface;
+
+public class Iphone extends SmartPhone{
+
 }

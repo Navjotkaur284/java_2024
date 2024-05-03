@@ -1,2 +1,7 @@
-package TechInterface;public interface Camera {
+package TechInterface;
+
+public interface Camera {
+    void takephoto();
+    void recordvideo();
+
 }

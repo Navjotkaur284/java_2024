@@ -1,2 +1,12 @@
-package Interfaces;public interface MediaPlayer {
+package Media;
+
+public interface MediaPlayer {
+    void play();
+
+    void pause();
+
+    void resume();
+
+    void stop();
+
 }
