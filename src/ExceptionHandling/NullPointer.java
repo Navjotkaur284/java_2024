@@ -7,8 +7,7 @@ public class NullPointer {
         try {
             String s1 = s.toString();
             System.out.println(s);
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println(s);
