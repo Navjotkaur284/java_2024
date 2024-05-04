@@ -14,3 +14,4 @@ public class NullPointer {
         System.out.println(s);
     }
 }
+
