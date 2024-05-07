@@ -8,8 +8,8 @@ public class Motorcycle extends Vehicle{
         this.numCylinders = numCylinders;
     }
 
-    public void wheelie() {
-        System.out.println("Wheelie!");
+    public void vroom() {
+        System.out.println("Vroom!");
     }
 
     public void displayInfo() {

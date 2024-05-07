@@ -7,14 +7,14 @@ public class MainInheritance {
         car.displayInfo();
         car.honk();
         car.stop();
-        System.out.println();
+       // System.out.println();
 
         Motorcycle motorcycle = new Motorcycle("Honda", "CBR1000RR", 2020, 4);
         motorcycle.start();
         motorcycle.displayInfo();
-        motorcycle.wheelie();
+        motorcycle.vroom();
         motorcycle.stop();
-        System.out.println();
+       // System.out.println();
 
         ElectricCar electricCar = new ElectricCar("Tesla", "Model S", 2023, 4, 100);
         electricCar.start();
@@ -22,5 +22,7 @@ public class MainInheritance {
         electricCar.honk();
         electricCar.chargeBattery();
         electricCar.stop();
+       // System.out.println();
+
     }
 }
