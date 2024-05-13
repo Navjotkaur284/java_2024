@@ -2,7 +2,7 @@ package Assignment6_Object_Oriented_Programming_Lang;
 
 public class PolymorphismMainEmployee {
     public static void main(String[] args){
-        FullTimeEmployee fullTimeEmployee = new FullTimeEmployee("Emp001", "Nav",  7500.00);
+        FullTimeEmployee fullTimeEmployee = new FullTimeEmployee("Emp001", "Navjot",  7500.00);
         PartTimeEmployee partTimeEmployee = new PartTimeEmployee("Emp002", "Jot", 3000.00);
 
         System.out.println("Full Time Employee Name: " + fullTimeEmployee.getName());
